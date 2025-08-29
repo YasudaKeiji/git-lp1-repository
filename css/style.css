@@ -168,7 +168,7 @@ body {
 .s-ttl {
   display: inline-block;
   position: relative;
-  font-size: 2rem;
+  font-size: 2.75rem;
   font-weight: 700;
   border-bottom: solid #0048FF 3.5px;
   margin-bottom: 8%;
@@ -343,7 +343,6 @@ body {
 .voi-wrap__ttl .s-ttl {
   color: #fff;
   border-bottom: solid #fff 3.5px;
-  font-size: 3.5rem;
 }
 
 .voi-wrap__con {
@@ -353,9 +352,10 @@ body {
 }
 
 .voi-wrap__con__block {
-  width: 45%;
+  width: 40%;
   background-color: #fff;
   padding: 1.5%;
+  margin: 0 3.5%;
 }
 
 .voi-wrap__con__block__top {
@@ -374,13 +374,12 @@ body {
   width: 55%;
   text-align: right;
   line-height: 1;
-  font-size: 1.2rem;
 }
 
 .voi-wrap__con__block__top p span {
   display: block;
   text-align: left;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -390,7 +389,7 @@ body {
 }
 
 .voi-wrap__con__block__ttl p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #3e93d3;
   font-weight: bold;
 }
@@ -398,7 +397,6 @@ body {
 .voi-wrap__con__block__txt {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  font-size: 1.2rem;
   line-height: 1.8rem;
 }
 
@@ -412,7 +410,6 @@ body {
 }
 
 .sup-wrap__ttl .s-ttl {
-  font-size: 3rem;
   margin-bottom: 5%
 }
 
@@ -483,7 +480,7 @@ body {
 }
 
 .faq {
-  background-color: rgba(62, 147, 211, 0.5);
+  background-color: #fff;
 }
 
 .faq-wrap__ttl {
@@ -491,7 +488,6 @@ body {
 }
 
 .faq-wrap__ttl .s-ttl {
-  font-size: 3.5rem;
   margin-bottom: 5%
 }
 
@@ -572,12 +568,14 @@ body {
   padding: 0 1.3%;
 }
 
+.con{
+  background-color: rgba(62, 147, 211, 0.1);
+}
 .con-wrap__ttl {
   text-align: center;
 }
 
 .con-wrap__ttl .s-ttl {
-  font-size: 3.5rem;
   margin-bottom: 2%
 }
 
@@ -614,7 +612,7 @@ body {
 }
 
 .con-wrap__con__form__btn {
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   border-radius: 5rem;
   background-color: #3E93D3;
